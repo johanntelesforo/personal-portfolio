@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <title> Personal Portfolio </title>
+</head>
+<body>
+
+<!-- Navbar start --> 
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+  <div class="container-lg mt-1 mb-1">
+      <a class="navbar-brand fs-4 fw-bold" href="#"> Johann Telesforo </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active fs-5" aria-current="page" href="#home"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="#About"> About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="#Edits"> Edits </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="#webapp"> Web App Idea </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+  </div>
+</nav>
+<!-- Navbar end -->
+
+
+<!-- Home Start -->
+<section class = "home bg-dark w-auto py-5 mt-md-0" id = "home">
+  <div class="container-lg py-5">
+    <div class="row">
+      <div class="text-center mt-5">
+        <img src="img/Untitled-1.jpg" class="rounded-circle mw-150" alt="profile-pic">
+      </div>
+    </div>
+    <div class = "row">
+      <div class="home-text text-center">
+        <p class = "text-light mb-1 mt-5"> Hello, I am a </p> 
+        <h1 class = "text-info text-uppercase fs-1 fw-bold mt-3 mb-3"> COMPUTER SCIENCE STUDENT </h1>
+        <h2 class = "fs-4 text-light"> Johann Gabriel Sebastian B. Telesforo </h2>
+        <p class = "text-light mt-4"> I am a BSCS Student of the University of the Immaculate Conception. <br>
+          An anime enthusiast; I particularly enjoy the refreshing genres of romantic comedy and slice of life. 
+          <br> I take a liking into video editing, as well </p>
+        <a href = "#webapp" class = "btn btn-info px-4 mt-4 mb-5 text-dark"> My Works </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Home End -->
+
+<!-- About Section Start -->
+<section class="about bg-light w-auto py-4 mt-md-0" id = "About">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center mt-4">
+          <h2 class = "fw-bold mb-5" > About Me </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center mb-3 justify-content-center">
+          <div class="about-text">
+            <h3 class = "fs-4 mb-3"> A person who enjoys editing anime, kpop, and creating websites </h3>
+            <p> I have been editing anime and kpop for almost about 2 or 3 years now and I don't regret a single minute out of it.
+              <br> As of this time, I am exploring the world of making websites and learning how to use PGAdmin and Node js. </p>
+          </div>
+        </div>
+      </div>
+      <div class="row w-auto py-2 mt-md-0">
+        <div class= "text-center mb-3 justify-content-center">
+          <div class= "text-center">
+            <a href = "#" class = "text-dark me-2 fs-3"><i class = "fab fa-facebook"></i></a>
+            <a href = "https://www.youtube.com/channel/UC5pFw5p0PCWPQOIcORfstzA" class = "text-dark me-2 fs-3"><i class = "fab fa-youtube"></i></a>
+            <a href = "https://github.com/johanntelesforo" class = "text-dark me-2 fs-3"><i class = "fab fa-github"></i></a>
+            <a href = "#" class = "text-dark me-2 fs-3"><i class = "fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center">
+          <div class="resume">
+            <a href = "#" class = "btn btn-info px-4 mt-4 mb-5 text-dark"> Download Resume </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About Section End -->
+
+<!--What I Do Section Start-->
+<section class="services bg-white shadow-sm" id = "services">
+  <div class="container-lg py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h2 class = "fw-bold mb-5" > What I Do </h2>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-info fs-2">
+              <i class = "fas fa-code"></i>
+            </div>
+            <h3 class = "fs-5 py-2"> Web Development </h3>
+            <p class = "text-muted"> Creating Static web pages with the help of some frameworks </p>
+          </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-item shadow-sm p-4 rounded bg-white">
+          <div class="icon my-3 text-info fs-2">
+            <i class = "fas fa-video"></i>
+          </div>
+          <h3 class = "fs-5 py-2"> Video Editing </h3>
+          <p class = "text-muted"> Using mainly Adobe After Effects when editing videos </p>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="service-item shadow-sm p-4 rounded bg-white">
+        <div class="icon my-3 text-info fs-2">
+          <i class = "fas fa-gamepad"></i>
+        </div>
+        <h3 class = "fs-5 py-2"> Gaming </h3>
+        <p class = "text-muted"> Playing mostly Valorant and Genshin Impact to learn how the game industry works </p>
+      </div>
+  </div>
+    </div>
+  </div>
+ </section>
+<!-- What I Do Section End -->
+
+<!-- Edits Section -->
+<section class="about bg-dark w-auto py-4 mt-md-0" id = "Edits">
+  <div class="container-lg py-3">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center mt-4">
+          <h2 class = "fw-bold mb-5 text-light" > Edits </h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col order-last mt-3">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/k3ZYXEnC84g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+        <div class="col mt-3">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/J_La7Trm2Ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col order-first mt-3">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/gq9KxOy6IdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col mt-3">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/KeBfixLICUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="section-title text-center mt-4">
+          <h3 class = "mt-4 mb-3 text-light" > More of my works can be found on my YouTube Channel </h3>
+          <div class="btn text-center">
+            <a href = "https://www.youtube.com/channel/UC5pFw5p0PCWPQOIcORfstzA" class = "btn btn-info px-4 mt-2 mb-5 text-dark"> YouTube Channel </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Edits Section End-->
+
+<!-- Web App Idea Start -->
+<Section class="about bg-white w-auto py-4 mt-md-0" id = "webapp">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h2 class = "fw-bold mb-5" > Web Application Idea </h2>
+        </div>
+      </div>
+    </div>
+    <div class="card text-center py-2 mt-3 mb-5">
+      <div class="card-header fw-bold">
+        Featured
+      </div>
+      <div class="card-body">
+        <h5 class="card-title"> Buy-D-Hour </h5>
+        <p class="card-text"> Check out what we made as a Group </p>
+        <a href="webappidea.html" class="btn btn-primary btn-info"> Web App Idea </a>
+      </div>
+      <div class="card-footer text-muted">
+        Made by PowerPuffCodes
+      </div>
+    </div>
+  </div>
+</Section>
+<!-- Web App Idea End -->
+
+<!-- Freelance -->
+<section class="freelancer-available py-5 bg-dark">
+  <div class="container-lg">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+         <p class = "text-light fs-5"> Do you want to work with me?? </p>
+         <h2 class = "fs-1 text-white mb-4"> I'm Available For Freelance </h2>
+         <a href = "#" id = "contact" class = "btn btn-outline-light"> Hire Me </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Freelance -->
+
+<!-- Contact Info Start -->
+<section class="bg-white shadow-sm py-4 mt-md-0" id = "contact">
+  <div class="container-lg py-5">
+    <div class="container-lg">
+      <div class="row g-4">
+        <div class="col-md">
+          <h2 class="text-center mb-4"> Contact Info </h2>
+          <ul class="list-group list-group-flush lead">
+            <li class="list-group-item">
+              <span class="fw-bold"> Main Location: </span> Father Selga Street, Davao City 8000
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold"> Enrollment Email: </span> johannsebastiantelesforo@gmail.com
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold"> Student Email: </span> jtelesforo_2000000000102@uic.edu.ph
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold"> Student Phone: </span> 09451248933
+            </li>
+          </ul>
+        </div>
+          <div class="col-md">
+          <div id ="map" style='width: 650px; height: 300px;'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact Info End -->
+
+<!-- Footer Start -->
+<footer class="footer border-top py-4 bg-light">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-lg-12">
+        <p class = "m-0 text-center text-dark text-muted"> &copy; 2021 Johann Gabriel Sebastian B. Telesforo </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer End -->
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+<script src="js/bootstrap.bundle.min.js"></script>    
+
+<!-- Map -->
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1Ijoic3NldWxpZS0iLCJhIjoiY2t1M2pndnB3MW90NDJ2bzdyNzhsaWQycCJ9.EY8wQuUXuk-MgIyh5biM6w';
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/streets-v11',
+  center : [125.6001, 7.0699],
+  zoom: 17.5
+  });
+  </script> 
+<!-- Map -->
+</body>
+</html>
